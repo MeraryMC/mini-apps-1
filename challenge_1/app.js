@@ -26,7 +26,7 @@ var reset = function () {
 //build the game board
 var constructBoard = function (status) {
   var winner = checkForWinner();
-  var rows = winner ? '<p><strong>' + winner + ' WINS!</string></p>' : '';
+  var rows = winner ? '<p><strong>' + winner + ' WINS</string></p>' : '';
   rows += '<table><tbody>';
   rows += constructBoxes(status, winner);
   rows += '</tbody></table><p><button id="restart">Restart Game</button></p>';

@@ -1,0 +1,67 @@
+body {
+  background-image: url('images/hpbackground.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+img {
+  height: 150%;
+  margin-top: 75px;
+  margin-left: 440px;
+  margin-right: auto;
+  position: sticky;
+}
+
+table {
+  border-spacing: 10px;
+}
+
+p {
+  margin-left: 57px;
+  opacity: 0.98;
+}
+
+#restart {
+  margin-left: 30px;
+  position: sticky;
+  font-family: 'Staatliches', cursive;
+  float:left;
+  border-radius: 3px;
+  background-color: white;
+  margin-right: 5px;
+  opacity: 0.60;
+
+}
+
+#gameboard {
+  margin-left: 440px;
+  position: sticky;
+
+}
+.game-box {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  font-size: 2em;
+  font-weight: bold italic;
+  height: 70px;
+  width: 70px;
+  border-radius: 5px;
+}
+
+strong {
+  text-align:center;
+  color: white;
+  font-size: 2em;
+  font-weight: italic;
+  opacity: 0.96;
+}
+
+
+
+
+
+
