@@ -1,0 +1,20 @@
+//need to import React to use it
+import React from 'react';
+
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    return React.createElement(
+      'div',
+      null,
+      'Hello World!'
+    );
+  }
+}
+
+export default App;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL2NsaWVudC9zcmMvY29tcG9uZW50cy9BcHAuanN4Il0sIm5hbWVzIjpbIlJlYWN0IiwiQXBwIiwiQ29tcG9uZW50IiwiY29uc3RydWN0b3IiLCJwcm9wcyIsInN0YXRlIiwicmVuZGVyIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUNBLE9BQU9BLEtBQVAsTUFBa0IsT0FBbEI7O0FBR0EsTUFBTUMsR0FBTixTQUFrQkQsTUFBTUUsU0FBeEIsQ0FBa0M7QUFDOUJDLGNBQVlDLEtBQVosRUFBbUI7QUFDakIsVUFBTUEsS0FBTjtBQUNBLFNBQUtDLEtBQUwsR0FBYSxFQUFiO0FBR0Q7O0FBR0hDLFdBQVM7QUFDUCxXQUNFO0FBQUE7QUFBQTtBQUFBO0FBQUEsS0FERjtBQUtEO0FBZitCOztBQWtCbEMsZUFBZUwsR0FBZiIsImZpbGUiOiJBcHAuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvL25lZWQgdG8gaW1wb3J0IFJlYWN0IHRvIHVzZSBpdFxuaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcblxuXG5jbGFzcyBBcHAgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnQge1xuICAgIGNvbnN0cnVjdG9yKHByb3BzKSB7XG4gICAgICBzdXBlcihwcm9wcyk7XG4gICAgICB0aGlzLnN0YXRlID0ge1xuXG4gICAgICAgfTtcbiAgICB9XG5cblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxkaXY+XG4gICAgICAgICAgSGVsbG8gV29ybGQhXG4gICAgICA8L2Rpdj5cbiAgICApO1xuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IEFwcDsiXX0=

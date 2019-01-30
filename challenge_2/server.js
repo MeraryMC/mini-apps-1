@@ -2,7 +2,7 @@
 var express = require('express');
 
 //set your port name, will be used in app.listen
-var port = 3000;
+var port = 8080;
 
 //invoke express
 var app = express();

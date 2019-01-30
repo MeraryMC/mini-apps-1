@@ -1,0 +1,19 @@
+//to start a server file, you _must_ require express
+var express = require('express');
+
+//set your port name, will be used in app.listen
+var port = 8080;
+
+//invoke express
+var app = express();
+
+//actually have the server running
+app.listen(port, function () {
+    console.log("Server Is up and running!");
+});
+
+//exporting our functions elsewhere
+module.exports = function (app) {
+    // do something with app
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NlcnZlci5qcyJdLCJuYW1lcyI6WyJleHByZXNzIiwicmVxdWlyZSIsInBvcnQiLCJhcHAiLCJsaXN0ZW4iLCJjb25zb2xlIiwibG9nIiwibW9kdWxlIiwiZXhwb3J0cyJdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQSxJQUFJQSxVQUFVQyxRQUFRLFNBQVIsQ0FBZDs7QUFFQTtBQUNBLElBQUlDLE9BQU8sSUFBWDs7QUFFQTtBQUNBLElBQUlDLE1BQU1ILFNBQVY7O0FBSUE7QUFDQUcsSUFBSUMsTUFBSixDQUFXRixJQUFYLEVBQWdCLFlBQVU7QUFDdEJHLFlBQVFDLEdBQVIsQ0FBWSwyQkFBWjtBQUNBLENBRko7O0FBSUE7QUFDQUMsT0FBT0MsT0FBUCxHQUFpQixVQUFVTCxHQUFWLEVBQWU7QUFDNUI7QUFDRCxDQUZIIiwiZmlsZSI6InNlcnZlci5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vdG8gc3RhcnQgYSBzZXJ2ZXIgZmlsZSwgeW91IF9tdXN0XyByZXF1aXJlIGV4cHJlc3NcbnZhciBleHByZXNzID0gcmVxdWlyZSgnZXhwcmVzcycpO1xuXG4vL3NldCB5b3VyIHBvcnQgbmFtZSwgd2lsbCBiZSB1c2VkIGluIGFwcC5saXN0ZW5cbnZhciBwb3J0ID0gODA4MDtcblxuLy9pbnZva2UgZXhwcmVzc1xudmFyIGFwcCA9IGV4cHJlc3MoKTtcblxuXG5cbi8vYWN0dWFsbHkgaGF2ZSB0aGUgc2VydmVyIHJ1bm5pbmdcbmFwcC5saXN0ZW4ocG9ydCxmdW5jdGlvbigpe1xuICAgIGNvbnNvbGUubG9nKFwiU2VydmVyIElzIHVwIGFuZCBydW5uaW5nIVwiKTtcbiAgIH0pO1xuXG4vL2V4cG9ydGluZyBvdXIgZnVuY3Rpb25zIGVsc2V3aGVyZVxubW9kdWxlLmV4cG9ydHMgPSBmdW5jdGlvbiAoYXBwKSB7XG4gICAgLy8gZG8gc29tZXRoaW5nIHdpdGggYXBwXG4gIH07Il19
