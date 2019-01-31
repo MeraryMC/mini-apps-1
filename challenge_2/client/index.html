@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/style.css">
+        <!-- <script src="../node_modules/react"></script>
+        <script src="../node_modules/react-dom/"></script> -->
+        <title>CSV Report Generator</title>
+    </head>
+    <body>
+        <h1>CSV Report Generator</h1>
+        <form action="/handle-csv-data" method="post">
+            <div>
+                <label for="data">CSV Data:</label>
+                <input type="text" id="data" name="data">
+            </div>
+            <button type="submit" form="dataform" value="Submit">Submit</button>
+        </form>
+        
+        <!-- <div id="app">This is not generating with React!</div>
+        <script type="module" src="../compiled/client/src/components/app.js"></script>
+        <script type="module" src="../compiled/client/src/index.js"></script> -->
+    </body>
+</html>
