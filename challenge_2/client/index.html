@@ -7,11 +7,8 @@
     <body>
         <h1>CSV Report Generator</h1>
         <form action="/handle-post" method="post">
-            <div>
-                <label for="data">CSV Data in JSON Format:</label>
-                <input type="text" id="data" name="data">
-            </div>
-            <button type="submit" form="dataform" value="Submit">Submit</button>
+        	<textarea id="textArea" form="submitForm"></textarea>
+        	<input id="submit" class="button" name="submit" type="submit" value="submit" onClick="getFormData();" />
         </form>
         <div id='result-data'></div>
         <script>App.init()</script> 
